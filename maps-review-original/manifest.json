@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Google Maps Review Original",
+  "version": "1.0",
+  "description": "Tự động hiển thị review ở ngôn ngữ gốc (bấm View Original).",
+  "permissions": ["scripting", "activeTab", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Auto View Original",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/maps/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
