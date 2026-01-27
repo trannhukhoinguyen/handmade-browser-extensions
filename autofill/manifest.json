@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Fill AntD Table",
+  "version": "1.0",
+  "description": "Tự động điền điểm tối đa cho bảng đánh giá",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Click để điền điểm"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
