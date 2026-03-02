@@ -5,7 +5,7 @@
   "description": "Tự động điền điểm tối đa cho bảng đánh giá (nhấn Alt + Shift + F)",
   "permissions": ["activeTab", "scripting"],
   "action": {
-    "default_title": "Click để điền điểm",
+    "default_title": "Click để điền điểm (nhấn Alt + Shift + F)",
     "default_popup": "popup.html",
   },
   "content_scripts": [
