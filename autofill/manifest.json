@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Auto Fill AntD Table",
   "version": "1.0",
-  "description": "Tự động điền điểm tối đa cho bảng đánh giá",
+  "description": "Tự động điền điểm tối đa cho bảng đánh giá (nhấn Alt + Shift + F)",
   "permissions": ["activeTab", "scripting"],
   "action": {
     "default_title": "Click để điền điểm",
